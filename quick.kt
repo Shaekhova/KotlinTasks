@@ -12,7 +12,7 @@ fun quickSort(list: List<Double>): List<Double> =
         }
 
 fun main(args: Array<String>) {
-    /*var xs = listOf<Double>()
+    var xs = listOf<Double>()
     var isDone = false
     while (!isDone) {
         println("Enter doubles per space: ")
@@ -24,10 +24,10 @@ fun main(args: Array<String>) {
         }
     }
     val sorted = quickSort(xs)
-    println(sorted.joinToString(" "))*/
-    val st = MyStack<Int>();
+    println(sorted.joinToString(" "))
+    /*val st = MyStack<Int>();
     st.push(1)
     st.push(2)
-    print(st)
+    print(st)*/
 
 }
